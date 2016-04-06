@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.0.0"><source path="D:\HorizontalViewPager\xutils\build\intermediates\exploded-aar\com.android.support\multidex\1.0.0\assets"/></dataSet><dataSet config="debug"><source path="D:\HorizontalViewPager\xutils\build\intermediates\bundles\debug\assets"><file name="icudt46l.zip" path="D:\HorizontalViewPager\xutils\build\intermediates\bundles\debug\assets\icudt46l.zip"/></source></dataSet><dataSet config="main"><source path="D:\HorizontalViewPager\xutils\src\androidTest\assets"/></dataSet></merger>

@@ -1,0 +1,25 @@
+apply plugin: 'android-library'
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 17
+    }
+    buildTypes {
+        release {
+            multiDexEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug{
+            multiDexEnabled true
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile files('libs/sqlcipher.jar')
+    compile files('libs/guava-r09.jar')
+}
